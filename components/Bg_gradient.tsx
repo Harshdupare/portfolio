@@ -4,7 +4,7 @@ import { BackgroundGradient } from "./ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
-import image1 from "../public/img/hd2.jpeg"
+import image1 from "../public/img/hd4.jpeg"
 import { Objecttivetext } from "./Objectivetext";
 
 const Bg_gradient = () => {
