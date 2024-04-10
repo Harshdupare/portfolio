@@ -1,0 +1,13 @@
+[
+    {
+        "title" : "Book Store" ,
+        "descriptions" : "A web application allowing users to manage a collection of books with CRUD operations. Built with React.js for the frontend and Node.js with MongoDB and Mongoose for the backend, enabling seamless interaction and datamanagement.",
+        "link": "https://github.com/Harshdupare/book_store"
+    },
+    {
+        "title" : "Medicate" ,
+        "descriptions" : "A medical chatbot created to offer information and advise on tailored healthcare depending on user input. It helps users comprehend medical diseases and treatments, provides advice, and analyzes symptoms using the LLM Model (Llama 2).",
+        "link": "https://github.com/Harshdupare/Gliders"
+    }
+    
+]
