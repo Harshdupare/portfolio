@@ -3,15 +3,6 @@ import React from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
-
-// import {ACCESS_KEY }from "dotenv"
-
-
 
 export function SignupForm() {
   const [result, setResult] = React.useState("");
@@ -41,7 +32,7 @@ export function SignupForm() {
 
 
   return (
-    <div className="max-w-full flex justify-center w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className="max-w-full flex justify-center w-80 relative right-10 sm:right-auto sm:w-10/12  z-10 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <div className="w-full ">
         <h2 className="font-normal text-xl relative w-96 left-20 text-neutral-800 dark:text-neutral-200">
           Connect with me

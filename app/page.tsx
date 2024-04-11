@@ -11,13 +11,13 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-hidden">
        <TracingBeam className="px-6 z-10" >
         <div className="grid grid-rows-2 " style={{height : "525px"}} id="home">
           <>
             <Navbar/>
           </>
-          <div className="relative flex justify-center top-36">
+          <div className="relative flex justify-center left-5 sm:left-0 top-36">
             <Bg_gradient/>
           </div>
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
                 Projects
               </div>
             </div>
-            <div className="grid grid-cols-2 justify-items-stretch j gap-2 mb-5 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-stretch j gap-2 mb-5 ">
                 {Array.isArray(projectdata) ? projectdata.map((ele , index) => (
                     <Projectcards
                       key={index} 
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       
         <div className="w-full p-2">
-        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" id="contact" />
+        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px]  sm:w-full" id="contact" />
           <SignupForm/>
         </div>
         <Footer/>
